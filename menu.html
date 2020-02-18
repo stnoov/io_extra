@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/mystyles.css" />
+    <script src="./js/myfunctions.js" charset="utf-8"></script>
     <title>PHP Practice</title>
 </head>
 <body>
     <div id="header">This is header</div>
-    <div id="menu">Menu</div>
+    <div id="menu">
+        <ul>
+            <li> <a href="#" onclick="loadDoc('page1.html')">Page1</a> </li>
+            <li> <a href="#" onclick="loadDoc('page2.html')">Page2</a> </li>
+            <li> <a href="#" onclick="loadDoc('page3.php')">Page3</a> </li>
+            </ul>   
+    </div>
     <div id="content">Content</div>
     <div id="footer">Footer</div>
 </body>
